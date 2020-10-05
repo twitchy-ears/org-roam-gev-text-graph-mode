@@ -90,7 +90,7 @@
 
 (defun org-roam-gev-graph-easy-viewer (graphfile)
   "Open a buffer showing the org-roam graph parsed through graph-easy"
-  (interactive)
+  ;; (interactive)
 
   ;; Create the buffer and/or blank it
   (get-buffer-create org-roam-gev-text-graph-buffername)
